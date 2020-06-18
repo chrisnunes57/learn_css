@@ -1,0 +1,42 @@
+.npm__react-simple-code-editor__textarea {
+    border: 1px solid gray !important;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    max-width: 400px;
+}
+
+.code {
+    max-width: 400px;
+}
+
+.editor-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    div:first-of-type {
+        min-width: 400px;
+        min-height: 450px;
+    }
+
+    .code-result--wrapper {
+
+        min-width: 400px;
+        min-height: 450px;
+
+        .code-result {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        * {
+            transition: 0.3s all;
+        }
+
+        .code-result--content {
+            min-width: max-content;
+            min-height: max-content;
+        }
+    }
+}
