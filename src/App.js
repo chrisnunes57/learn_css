@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import CodeEditor from "./components/CodeEditor";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
               Users
             </Route>
             <Route path="/">
-              Home
+              <CodeEditor />
             </Route>
           </Switch>
         </div>
